@@ -8,6 +8,9 @@ body {
     font-family: "Roboto Mono", monospace;
     line-height: 1.4;
     padding: 32px 24px;
+    -webkit-animation: FundoEmMovimento 30s ease infinite;
+    -moz-animation: FundoEmMovimento 30s ease infinite;
+    animation: FundoEmMovimento 30s ease infinite;
 }
 
 .header {
@@ -115,4 +118,20 @@ body {
     font-size: 14px;
     white-space: pre-wrap;
     word-wrap: break-word;
+}
+
+@-webkit-keyframes FundoEmMovimento {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes FundoEmMovimento {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes FundoEmMovimento {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
