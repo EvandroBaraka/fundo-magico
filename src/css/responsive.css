@@ -7,12 +7,13 @@
         font-size: 16px;
     }
 
-    .card-header {
-        font-size: 16px;
+    .card {
+        font-size: 24px;
     }
 
     .btn-magic {
         font-size: 16px;
+        padding: 14px 24px;
     }
 
     .code-grid {
