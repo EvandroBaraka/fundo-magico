@@ -14,10 +14,9 @@ body {
 }
 
 .header {
-    z-index: 99;
+    z-index: 100;
     position: relative;
-    max-width: 700px;
-    margin: 40px auto;
+    margin-bottom: 48px;
     text-align: center;
 }
 
@@ -27,7 +26,9 @@ body {
 }
 
 .header .subtitle {
-    font-size: 19px;
+    font-size: 19.2px;
+    max-width: 700px;
+    margin: 0 auto;
     color: rgba(255, 255, 255, 0.8);
 }
 
